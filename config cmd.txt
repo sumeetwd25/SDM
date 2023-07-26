@@ -1,0 +1,1 @@
+git config --global http.proxy http://exam:exam@192.168.10.4:808
