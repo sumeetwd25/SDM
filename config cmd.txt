@@ -1,1 +1,29 @@
 git config --global http.proxy http://exam:exam@192.168.10.4:808
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+1)git init
+//Initialized empty Git repository in C:/Users/iet01/Documents/SDMProj/.git/
+
+2)git clone https://github.com/sumeetwd25/Software-Development-Methodologies.git
+//After cloning, navigate to repository folder
+
+git status
+
+//Branching commands
+//git remote add Software-Development-Methodologies https://github.com/sumeetwd25/Software-Development-Methodologies.git
+//git push --set-upstream Software-Development-Methodologies master
+
+3)git add "config cmd.txt"
+//git add .	(considers all the files that are in the current directory to be pushed)
+//Adds the files in staging area
+
+4)git commit -m <message>
+
+5)git push
+
+
+
+
+
+
