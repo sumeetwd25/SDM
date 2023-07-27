@@ -1,0 +1,42 @@
+1)AWS Login
+
+2)Create EC2 instance
+
+3)Set firewall:-
+	Security groups-->Edit inbound rule-->Add rule-->All traffic, IPv4
+
+4)Ubuntu platform-->t2.micro-->create key(.ppk) or use existing key
+
+5)Connect
+
+6)EC2 CLI window:-
+
+- clear
+- sudo apt update
+- git --version
+- git clone <repository url>
+- ls
+- cd <repository name>
+- ls
+- cd <directory name>
+- docker -v
+- sudo apt install docker.io
+- y
+- docker -v
+- sudo systemctl status docker
+- ctrl+c
+- sudo docker build -t <give container image name> .
+- sudo docker images
+- sudo docker run -d -p <internal port no.>:<outside port no.> <image name>
+
+7)Copy IP address-->Paste in browser-->url:port
+
+8)Stop EC2 instance-->Terminate ec2 instance
+
+Extra commands:-
+
+- sudo docker ps				//shows how many container images are running
+- sudo docker kill			//stop all container images
+- sudo docker rmi				//remove docker images
+- sudo docker pull <image name>	//pull docker image from docker hub
+- docker push <image name>		//push docker image to docker hub
