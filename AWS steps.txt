@@ -35,8 +35,8 @@
 
 Extra commands:-
 
-- sudo docker ps				//shows how many container images are running
+- sudo docker ps			//shows how many container images are running
 - sudo docker kill			//stop all container images
-- sudo docker rmi				//remove docker images
-- sudo docker pull <image name>	//pull docker image from docker hub
+- sudo docker rmi			//remove docker images
+- sudo docker pull <image name>		//pull docker image from docker hub
 - docker push <image name>		//push docker image to docker hub
