@@ -1,5 +1,5 @@
 # Vehicle Maintenance System
-This is a simple website with static html pages to demonstrate how to host your website on cloud services.
+This is a simple application with static html pages to demonstrate how to host your website on cloud services.
 
 ## Technologies used
 1. HTML
@@ -7,3 +7,4 @@ This is a simple website with static html pages to demonstrate how to host your 
 3. JavaScript
 4. NodeJS
 5. Amazon Web Services(AWS)
+6. Docker
